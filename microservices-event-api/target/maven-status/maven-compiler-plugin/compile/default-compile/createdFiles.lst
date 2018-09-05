@@ -1,0 +1,5 @@
+com\qjm\common\extend\ListMapper.class
+com\qjm\common\base\impl\BaseServiceImpl.class
+com\qjm\common\extend\ListMapperProvider.class
+com\qjm\common\base\BaseService.class
+com\qjm\common\base\BaseMapper.class

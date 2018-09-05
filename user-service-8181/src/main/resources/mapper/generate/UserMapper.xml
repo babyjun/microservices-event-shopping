@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qjm.mapper.generate.UserMapper">
+  <resultMap id="BaseResultMap" type="com.qjm.model.generate.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="last_modified" jdbcType="TIMESTAMP" property="lastModified" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="first_name" jdbcType="VARCHAR" property="firstName" />
+    <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+  </resultMap>
+</mapper>

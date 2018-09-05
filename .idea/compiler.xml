@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-service-8888" />
         <module name="discovery-service-8761" />
+        <module name="microservices-event-api" />
+        <module name="user-service-8181" />
       </profile>
     </annotationProcessing>
   </component>

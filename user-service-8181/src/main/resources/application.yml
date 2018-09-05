@@ -1,0 +1,16 @@
+server:
+  port: 8181
+mybatis:
+  mapper-locations:
+    - classpath:mapper/generate/*.xml
+    - classpath:mapper/extend/*/*.xml
+  type-aliases-package: com.qjm.model
+  configuration:
+      use-generated-keys: true
+      call-setters-on-nulls: true
+
+# General Mapper
+mapper:
+  identity: MYSQL
+  mappers: com.qjm.common.base.BaseMapper
+  not-empty: false
