@@ -1,12 +1,19 @@
 package com.qjm.controller;
 
+import com.qjm.common.base.BaseController;
 import com.qjm.model.generate.User;
 import com.qjm.service.UserService;
+import java.security.Principal;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import sun.security.util.Password;
 
 /**
  * @author qianjm
@@ -14,13 +21,32 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/users")
-public class UserController {
+public class UserController extends BaseController {
 
   @Autowired
   UserService userService;
 
+  @Autowired
+  PasswordEncoder passwordEncoder;
+
+  @GetMapping("/hello")
+  public String helloWord(){
+    return "HelloWorld";
+  }
+
   @GetMapping
   public List<User> findAll(){
-    return userService.findAll();
+    return userService.findAllUser();
+  }
+
+  @PostMapping
+  public ResponseEntity<?> save(@RequestBody User user){
+    user.setPassword(passwordEncoder.encode("123456"));
+    return buildCreate(userService.insert(user));
+  }
+
+  @GetMapping("/user")
+  public Principal user(Principal user){
+    return user;
   }
 }

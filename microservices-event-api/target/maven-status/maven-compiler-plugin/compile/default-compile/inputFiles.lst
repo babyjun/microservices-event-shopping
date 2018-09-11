@@ -1,5 +1,11 @@
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\config\MapperConfig.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\extend\ListMapper.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\base\BaseController.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\config\redis\RedisConfig.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\pojo\User.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\base\BaseService.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\base\impl\BaseServiceImpl.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\config\security\ResourceServerConfiguration.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\extend\ListMapperProvider.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\base\BaseMapper.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\microservices-event-api\src\main\java\com\qjm\common\config\feign\FeignConfig.java

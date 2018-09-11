@@ -1,5 +1,11 @@
 com\qjm\common\extend\ListMapper.class
-com\qjm\common\base\impl\BaseServiceImpl.class
 com\qjm\common\extend\ListMapperProvider.class
+com\qjm\common\config\redis\RedisConfig.class
+com\qjm\common\config\MapperConfig.class
+com\qjm\common\base\BaseController.class
+com\qjm\common\base\impl\BaseServiceImpl.class
 com\qjm\common\base\BaseService.class
+com\qjm\common\config\security\ResourceServerConfiguration.class
 com\qjm\common\base\BaseMapper.class
+com\qjm\common\config\feign\FeignConfig.class
+com\qjm\common\pojo\User.class

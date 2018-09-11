@@ -1,3 +1,13 @@
+com\qjm\mapper\extend\RoleMapperEx.class
 com\qjm\UserServiceApplication.class
-com\qjm\config\MapperConfig.class
-com\qjm\common\base\BaseMapper.class
+com\qjm\model\generate\User.class
+com\qjm\service\RoleService.class
+com\qjm\mapper\generate\RolesMapper.class
+com\qjm\controller\UserController.class
+com\qjm\service\impl\UserServiceImpl.class
+com\qjm\service\UserService.class
+com\qjm\config\security\GlobalSecurityConfiguration.class
+com\qjm\service\impl\RoleServiceImpl.class
+com\qjm\config\security\AuthorizationServerConfiguration.class
+com\qjm\mapper\generate\UserMapper.class
+com\qjm\model\generate\Roles.class

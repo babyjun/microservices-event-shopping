@@ -4,7 +4,10 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-service-8888" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/discovery-service-8761" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-consumer-80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservices-event-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices-event-zuul-9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/products-service-8182" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service-8181" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

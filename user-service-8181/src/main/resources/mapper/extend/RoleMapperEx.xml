@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qjm.mapper.extend.RoleMapperEx">
+  <select id="findByUserId" parameterType="Long" resultMap="com.qjm.mapper.generate.RolesMapper.BaseResultMap">
+
+    SELECT
+      r.*
+    FROM
+      roles r
+    LEFT JOIN user_2_role u2r ON r.id = u2r.role_id
+    LEFT JOIN USER u ON u2r.user_id = u.id
+    where u.id=#{userId}
+  </select>
+</mapper>

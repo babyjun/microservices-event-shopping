@@ -42,7 +42,7 @@
       <property name="enableSubPackages" value="true"/>
     </javaClientGenerator>
 
-    <table tableName="user">
+    <table tableName="roles">
       <generatedKey column="id" sqlStatement="mysql" identity="true"/>
     </table>
   </context>

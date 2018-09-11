@@ -1,0 +1,31 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: microservice-zuul-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/
+  instance:
+    instance-id: gateway-9527.com
+    prefer-ip-address: true
+
+zuul:
+  ignored-services: "*"   # 使用"*"注解表示所有程序原始访问服务路径忽略      microservicecloud-dept
+  routes:
+    mydept.serviceId: microservices-event-shopping-user
+    mydept.path: /mydept/**
+  prefix: /qjm/
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://127.0.0.1:8181/oauth/token
+      user-authorization-uri: http://127.0.0.1:8181/oauth/authorize
+      client-id: Web
+    resource:
+      user-info-uri: http://127.0.0.1:8181/users/user
+      prefer-token-info: false

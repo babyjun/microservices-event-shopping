@@ -8,7 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-service-8888" />
         <module name="discovery-service-8761" />
+        <module name="microservices-consumer-80" />
         <module name="microservices-event-api" />
+        <module name="microservices-event-zuul-9527" />
+        <module name="products-service-8182" />
         <module name="user-service-8181" />
       </profile>
     </annotationProcessing>

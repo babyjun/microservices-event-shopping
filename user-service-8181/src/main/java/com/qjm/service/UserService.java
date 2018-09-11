@@ -2,6 +2,7 @@ package com.qjm.service;
 
 import com.qjm.common.base.BaseService;
 import com.qjm.model.generate.User;
+import java.util.List;
 
 /**
  * @author qianjm
@@ -9,4 +10,7 @@ import com.qjm.model.generate.User;
  */
 public interface UserService extends BaseService<User,Long> {
 
+  List<User> findAllUser();
+
+  User findByPhone(String phone);
 }

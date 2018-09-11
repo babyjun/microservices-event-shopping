@@ -1,0 +1,6 @@
+com\qjm\controller\ProductController.class
+com\qjm\service\impl\ProductServiceImpl.class
+com\qjm\mapper\generate\ProductsMapper.class
+com\qjm\model\generate\Products.class
+com\qjm\ProductServiceApplication.class
+com\qjm\service\ProductService.class

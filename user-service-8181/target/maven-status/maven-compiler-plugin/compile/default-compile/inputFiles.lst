@@ -1,3 +1,13 @@
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\impl\UserServiceImpl.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\UserServiceApplication.java
-G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\common\base\BaseMapper.java
-G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\MapperConfig.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\impl\RoleServiceImpl.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\UserService.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\mapper\extend\RoleMapperEx.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\model\generate\Roles.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\controller\UserController.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\model\generate\User.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\AuthorizationServerConfiguration.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\mapper\generate\UserMapper.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\mapper\generate\RolesMapper.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\GlobalSecurityConfiguration.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\RoleService.java

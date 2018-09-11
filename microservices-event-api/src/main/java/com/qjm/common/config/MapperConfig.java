@@ -1,4 +1,4 @@
-package com.qjm.config;
+package com.qjm.common.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;

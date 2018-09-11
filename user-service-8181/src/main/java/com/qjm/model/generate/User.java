@@ -26,6 +26,10 @@ public class User implements Serializable {
 
     private String username;
 
+    private String phone;
+
+    private String password;
+
     private static final long serialVersionUID = 1L;
 
     /**
@@ -126,6 +130,34 @@ public class User implements Serializable {
         this.username = username == null ? null : username.trim();
     }
 
+    /**
+     * @return phone
+     */
+    public String getPhone() {
+        return phone;
+    }
+
+    /**
+     * @param phone
+     */
+    public void setPhone(String phone) {
+        this.phone = phone == null ? null : phone.trim();
+    }
+
+    /**
+     * @return password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * @param password
+     */
+    public void setPassword(String password) {
+        this.password = password == null ? null : password.trim();
+    }
+
     @Override
     public boolean equals(Object that) {
         if (this == that) {
@@ -144,7 +176,9 @@ public class User implements Serializable {
             && (this.getEmail() == null ? other.getEmail() == null : this.getEmail().equals(other.getEmail()))
             && (this.getFirstName() == null ? other.getFirstName() == null : this.getFirstName().equals(other.getFirstName()))
             && (this.getLastName() == null ? other.getLastName() == null : this.getLastName().equals(other.getLastName()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()));
+            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+            && (this.getPhone() == null ? other.getPhone() == null : this.getPhone().equals(other.getPhone()))
+            && (this.getPassword() == null ? other.getPassword() == null : this.getPassword().equals(other.getPassword()));
     }
 
     @Override
@@ -158,6 +192,8 @@ public class User implements Serializable {
         result = prime * result + ((getFirstName() == null) ? 0 : getFirstName().hashCode());
         result = prime * result + ((getLastName() == null) ? 0 : getLastName().hashCode());
         result = prime * result + ((getUsername() == null) ? 0 : getUsername().hashCode());
+        result = prime * result + ((getPhone() == null) ? 0 : getPhone().hashCode());
+        result = prime * result + ((getPassword() == null) ? 0 : getPassword().hashCode());
         return result;
     }
 
@@ -174,6 +210,8 @@ public class User implements Serializable {
         sb.append(", firstName=").append(firstName);
         sb.append(", lastName=").append(lastName);
         sb.append(", username=").append(username);
+        sb.append(", phone=").append(phone);
+        sb.append(", password=").append(password);
         sb.append("]");
         return sb.toString();
     }
