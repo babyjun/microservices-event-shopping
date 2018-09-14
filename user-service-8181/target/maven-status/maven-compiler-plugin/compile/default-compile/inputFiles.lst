@@ -1,3 +1,4 @@
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\MyOAuth2FeignRequestInterceptor.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\impl\UserServiceImpl.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\UserServiceApplication.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\impl\RoleServiceImpl.java
@@ -9,5 +10,5 @@ G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\s
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\AuthorizationServerConfiguration.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\mapper\generate\UserMapper.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\mapper\generate\RolesMapper.java
-G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\GlobalSecurityConfiguration.java
+G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\config\security\GlobalMethodSecurityConfiguration.java
 G:\IdeaProjectSpace\springcloud\microservices-event-shopping\user-service-8181\src\main\java\com\qjm\service\RoleService.java

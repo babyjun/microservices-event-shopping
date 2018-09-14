@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @author qianjm
  * @date 2018/9/10
  */
-@FeignClient(value = "MICROSERVICES-EVENT-SHOPPING-USER",configuration = FeignConfig.class)
+@FeignClient(value = "MICROSERVICES-EVENT-SHOPPING-USER")
 public interface UserClientService {
 
   @GetMapping(value = "/users")

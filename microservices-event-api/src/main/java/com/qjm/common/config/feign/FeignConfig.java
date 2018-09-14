@@ -20,7 +20,7 @@ public class FeignConfig implements RequestInterceptor {
 
   @Override
   public void apply(RequestTemplate requestTemplate) {
-    requestTemplate.header("token","67f98e6f-4942-42bc-a8e5-1ffa070aafdb");
+    requestTemplate.header("Authorization","Bearer 3f9668ef-6585-44ed-9fb6-a09293729c94");
   }
 
   private HttpServletRequest getHttpServletRequest() {

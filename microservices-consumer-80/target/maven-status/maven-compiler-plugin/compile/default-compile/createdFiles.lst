@@ -1,5 +1,7 @@
+com\qjm\config\GlobalMethodSecurityConfiguration.class
+com\qjm\service\UserClientServiceFallbackFactory$1.class
 com\qjm\service\UserClientService.class
 com\qjm\controller\UserController_consumer.class
 com\qjm\service\UserClientServiceFallbackFactory.class
-com\qjm\service\UserClientServiceFallbackFactory$1.class
+com\qjm\config\MyOAuth2FeignRequestInterceptor.class
 com\qjm\ConsumerApplication.class

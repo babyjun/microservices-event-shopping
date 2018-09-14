@@ -6,8 +6,9 @@ com\qjm\mapper\generate\RolesMapper.class
 com\qjm\controller\UserController.class
 com\qjm\service\impl\UserServiceImpl.class
 com\qjm\service\UserService.class
-com\qjm\config\security\GlobalSecurityConfiguration.class
 com\qjm\service\impl\RoleServiceImpl.class
 com\qjm\config\security\AuthorizationServerConfiguration.class
+com\qjm\config\security\GlobalMethodSecurityConfiguration.class
+com\qjm\config\security\MyOAuth2FeignRequestInterceptor.class
 com\qjm\mapper\generate\UserMapper.class
 com\qjm\model\generate\Roles.class
