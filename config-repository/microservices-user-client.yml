@@ -1,7 +1,7 @@
 ﻿spring:
   profiles:
     active:
-    - test
+    - dev
 ---
 server:
   port: 8181
@@ -54,6 +54,7 @@ eureka:
   instance:
       instance-id: microservices-event-shopping-user8181
       prefer-ip-address: true     #访问路径可以显示IP地址
+name: qianjm
 ---
 
 server:
@@ -108,4 +109,3 @@ eureka:
       instance-id: microservices-event-shopping-user8081
       prefer-ip-address: true     #访问路径可以显示IP地址
 
-name: qianjm
