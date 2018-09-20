@@ -1,7 +1,7 @@
 ﻿spring:
   profiles:
     active:
-    - dev
+    - test
 ---
 server:
   port: 8181
@@ -54,4 +54,56 @@ eureka:
   instance:
       instance-id: microservices-event-shopping-user8181
       prefer-ip-address: true     #访问路径可以显示IP地址
+---
 
+server:
+  port: 8081
+mybatis:
+  mapper-locations:
+    - classpath:mapper/generate/*.xml
+    - classpath:mapper/extend/*.xml
+  type-aliases-package: com.qjm.model
+  configuration:
+      use-generated-keys: true
+      call-setters-on-nulls: true
+
+# General Mapper
+mapper:
+  identity: MYSQL
+  mappers: com.qjm.common.base.BaseMapper
+  not-empty: false
+
+spring:
+  profiles: test
+  application:
+    name: microservices-event-shopping-user
+  redis:
+      database: 0
+      host: localhost
+      port: 6379
+      password:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+      timeout: 0
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+    url: jdbc:mysql://localhost:3306/time_store_user              # 数据库名称
+    username: time
+    password: 123456
+    dbcp2:
+      min-idle: 5                                           # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200                                  # 等待连接获取的最大超时时间
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/
+  instance:
+      instance-id: microservices-event-shopping-user8081
+      prefer-ip-address: true     #访问路径可以显示IP地址
