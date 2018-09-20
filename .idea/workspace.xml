@@ -2,35 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c5f4a4c-e318-470c-a039-9764f6d51197" name="Default" comment="init files">
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/GlobalMethodSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repository/microservices-user-client.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8181/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service-8888/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-service-8888/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service-8888/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-service-8888/target/microservicecloudTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service-8761/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service-8761/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service-8761/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service-8761/target/microservicecloudTest.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repository/online-store-app-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repository/online-store-app-test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/discovery-service-8761/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/discovery-service-8761/spring.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/service/UserClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/classes/com/qjm/service/UserClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/classes/com/qjm/service/UserClientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/target/microservicecloudTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/config/feign/FeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/config/feign/FeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-api/target/classes/com/qjm/common/config/feign/FeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-api/target/classes/com/qjm/common/config/feign/FeignConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-api/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-api/target/microservicecloudTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-zuul-9527/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-zuul-9527/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices-event-zuul-9527/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-event-zuul-9527/target/microservicecloudTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service-8182/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/products-service-8182/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products-service-8182/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/products-service-8182/target/microservicecloudTest.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-8181/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8181/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-8181/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8181/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-8181/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8181/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service-8181/target/microservicecloudTest.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-service-8181/target/microservicecloudTest.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,78 +35,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/service/UserClientService.java">
+      <file leaf-file-name="ConfigServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-service-8888/src/main/java/com/qjm/ConfigServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeignConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/config/feign/FeignConfig.java">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-service-8888/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="275">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorizationServerConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/AuthorizationServerConfiguration.java">
+      <file leaf-file-name="online-store-app-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-dev.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="online-store-app-prod.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-prod.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="microservices-user-client.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repository/microservices-user-client.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="300">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="online-store-app-test.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-test.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyOAuth2FeignRequestInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="6" column="67" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="91" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1564#1585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OAuth2FeignRequestInterceptor.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/1.2.1.RELEASE/spring-cloud-security-1.2.1.RELEASE.jar!/org/springframework/cloud/security/oauth2/client/feign/OAuth2FeignRequestInterceptor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalMethodSecurityConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/GlobalMethodSecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="69" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="46" column="49" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -173,9 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/service/UserService.java" />
-        <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/service/RoleService.java" />
-        <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/AuthorizationServerConfiguration.java" />
         <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/GlobalSecurityConfiguration.java" />
@@ -221,9 +183,12 @@
         <option value="$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/GlobalMethodSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/service/UserClientService.java" />
-        <option value="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java" />
         <option value="$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/GlobalMethodSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/user-service-8181/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/config-repository/online-store-app-test.yml" />
+        <option value="$PROJECT_DIR$/config-repository/microservices-user-client.yml" />
+        <option value="$PROJECT_DIR$/user-service-8181/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -276,8 +241,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,52 +252,33 @@
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
+              <item name="config-repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service-8888" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service-8888" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service-8888" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
+              <item name="config-service-8888" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qjm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-consumer-80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qjm" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="microservices-event-api" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -352,33 +297,6 @@
               <item name="user-service-8181" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-8181" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-8181" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qjm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-event-shopping" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-8181" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qjm" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-event-shopping" type="b2602c69:ProjectViewProjectNode" />
@@ -392,7 +310,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -627,7 +546,10 @@
       <workItem from="1536543054243" duration="22581000" />
       <workItem from="1536636258612" duration="4189000" />
       <workItem from="1536829410276" duration="3651000" />
-      <workItem from="1536893912285" duration="4605000" />
+      <workItem from="1536893912285" duration="7834000" />
+      <workItem from="1537154864303" duration="670000" />
+      <workItem from="1537410719331" duration="707000" />
+      <workItem from="1537423014734" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="init files">
       <created>1536125972432</created>
@@ -640,7 +562,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89079000" />
+    <option name="totallyTimeSpent" value="94744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -656,9 +578,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42553192" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25177306" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.41312057" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -668,7 +589,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49561402" visible="true" weight="0.33953112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49561402" visible="true" weight="0.27566692" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" sideWeight="0.50438595" side_tool="true" weight="0.3160873" />
@@ -678,6 +599,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.41312057" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -752,50 +674,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/discovery-service-8761/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-event-zuul-9527/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="22" selection-start-line="22" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/service/UserClientService.java" />
-    <entry file="file://$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/service/UserClientServiceFallbackFactory.java" />
-    <entry file="file://$PROJECT_DIR$/microservices-event-api/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products-service-8182/src/main/java/com/qjm/ProductServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar!/feign/codec/ErrorDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar!/feign/FeignException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -890,19 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-event-zuul-9527/src/main/java/com/qjm/MicroServicesEventZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,9 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -989,28 +848,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/service/UserClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="200">
           <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-event-api/src/main/java/com/qjm/common/config/feign/FeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
+        <state relative-caret-position="375">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1018,26 +868,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/MyOAuth2FeignRequestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/AuthorizationServerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/GlobalMethodSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/MyOAuth2FeignRequestInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/GlobalMethodSecurityConfiguration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/client/OAuth2ClientContext.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -1049,10 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#1640#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,10 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-event-api/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/1.2.1.RELEASE/spring-cloud-security-1.2.1.RELEASE.jar!/org/springframework/cloud/security/oauth2/client/feign/OAuth2FeignRequestInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="64" column="50" lean-forward="true" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        <state relative-caret-position="700">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1077,45 +905,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservices-event-zuul-9527/src/main/java/com/qjm/MicroServicesEventZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="150">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservices-event-zuul-9527/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="425">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-event-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/GlobalMethodSecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="69" />
+        <state relative-caret-position="300">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="66" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/java/com/qjm/config/MyOAuth2FeignRequestInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="91" />
+        <state relative-caret-position="400">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1564#1585#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/1.2.1.RELEASE/spring-cloud-security-1.2.1.RELEASE.jar!/org/springframework/cloud/security/oauth2/client/feign/OAuth2FeignRequestInterceptor.class">
+    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/java/com/qjm/config/security/AuthorizationServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
+        <state relative-caret-position="1625">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservices-consumer-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service-8888/src/main/java/com/qjm/ConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service-8888/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-prod.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repository/online-store-app-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="46" column="49" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repository/microservices-user-client.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service-8181/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="57" lean-forward="true" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
         </state>
       </provider>
     </entry>

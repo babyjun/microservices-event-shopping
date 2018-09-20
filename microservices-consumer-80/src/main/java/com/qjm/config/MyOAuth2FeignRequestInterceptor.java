@@ -52,6 +52,4 @@ public class MyOAuth2FeignRequestInterceptor extends OAuth2FeignRequestIntercept
     List<AccessTokenProvider> providers=Collections.unmodifiableList(chain);
     accessTokenProvider=new AccessTokenProviderChain(providers);
   }
-
-
 }
