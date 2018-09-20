@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-service-8888
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/babyjun/microservices-event-shopping.git
+          username: babyjun
+          password: qjm315110
+          searchPaths: config-repository
+    stream:
+      kafka:
+        binder:
+          zk-nodes: 192.168.133.48:2181
+          brokers: 192.168.133.48:9092
+    bus:
+      enabled: true

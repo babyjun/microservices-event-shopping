@@ -30,7 +30,7 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
         .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
         .and()
         .authorizeRequests()
-        .antMatchers("/products/**").permitAll()
+        .antMatchers("/bus/refresh").permitAll()
         .anyRequest().authenticated();
   }
 
