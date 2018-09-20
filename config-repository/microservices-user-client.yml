@@ -1,10 +1,10 @@
 ﻿spring:
   profiles:
     active:
-    - test
+    - dev
 ---
 server:
-  port: 8181
+  port: 8081
 mybatis:
   mapper-locations:
     - classpath:mapper/generate/*.xml
