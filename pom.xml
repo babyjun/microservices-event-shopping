@@ -16,6 +16,7 @@
     <module>products-service-8182</module>
     <module>microservices-event-zuul-9527</module>
     <module>microservices-consumer-80</module>
+    <module>microservices-event-kafka-8081</module>
   </modules>
 
   <properties>

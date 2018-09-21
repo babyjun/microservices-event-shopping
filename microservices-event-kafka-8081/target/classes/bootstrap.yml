@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name: microservices-user-client  #需要从github上读取的资源名称
+      name: microservices-kafka-client  #需要从github上读取的资源名称
       profile: dev #本次访问的配置项
       label: master
       uri: http://localhost:8888 #服务启动通过8888间接与github获取连接
@@ -14,10 +14,12 @@ spring:
           auto-create-topics: true
           min-partition-count: 1
       bindings:
-        output:
+        input:
           destination: mytopic
-          content-type: text/plain
-          producer:
-            partitionCount: 1
+          group: s1
+          consumer:
+            autoCommitOffset: false
+            concurrency: 1
+            partitioned: false
     bus:
       enabled: true
