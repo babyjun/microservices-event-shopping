@@ -1,0 +1,33 @@
+server:
+  port: 8081
+
+spring:
+  profiles: dev
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://eureka8761.com:8761/eureka/
+security:
+  oauth2:
+    client:
+      access-token-uri: http://127.0.0.1:8181/oauth/token
+      user-authorization-uri: http://127.0.0.1:8181/oauth/authorize
+      client-id: Web
+    resource:
+      user-info-uri: http://127.0.0.1:8181/users/user
+      prefer-token-info: false
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+          #这里将线程策略设置为SEMAPHORE
+          strategy: SEMAPHORE
